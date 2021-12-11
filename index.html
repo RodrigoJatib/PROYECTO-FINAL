@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <script src="https://kit.fontawesome.com/6dfafeada5.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="ESTOPA, COMIDA, FOOD, BAR, CERVEZA">
+    <meta name="description" content="Bar ubicado en Av. Domingo F. Sarmiento y Pje. Bernardo de Yrigoyen.">
+    <link rel="icon" type="image/png" href="imagenesEstopa/iconos/estopalogofbr.jpg" sizes="32x32">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <title>Estopa Bar</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="preload" href="css/style.css" as="style">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/header.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo-container">
+                <a href="index.html"><img class="logo" src="imagenesEstopa/estopalogofb.jpg" alt="Logo de Estopa"></a>
+                <a href="index.html"><h2 class="logo-container__name">Estopa</h2></a>
+            </div>
+            
+            <input type="checkbox" id="check">
+            <label for="check" class="hamburger-btn">
+                <i class="fas fa-bars"></i>
+            </label>
+
+            <ul class="nav-list">
+                <li class="nav-list__item"><a href="index.html">Home</a></li>
+                <li class="nav-list__item"><a href="delivery.html">Delivery</a></li>
+                <li class="nav-list__item"><a href="promociones.html">Promociones</a></li>
+                <li class="nav-list__item"><a href="contacto.html">Contacto</a></li>
+            </ul>
+
+            <div class="btn-container">
+                <a href="https://www.pedidosya.com.ar" class="btn-container__btn" target="_blank">Pedí Ahora!</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="local">
+            <article class="local__info">
+                <h1>Estopa <span> Bar</span></h1>
+                <p>Cervezas artesanales locales, pizzas, sandwiches y tapas.</p>
+            </article>
+            <div class="local__wpp">
+                <a href="error.html" target="_blank"><img src="imagenesEstopa/iconos/whatsapp.png" alt="Pedí por WhatsApp"> ¡Hacénos tu pedido!</a>
+            </div>
+        </section>
+
+        <section class="daymenu">
+            <div class="daymenu__info">
+                <h2>Los más pedidos</h2>
+                <p>Te compartimos los platos mas aclamados por nuestros clientes:</p>
+            </div>
+            <div class="daymenu__img">
+                <article class="img wow animate__animated animate__fadeInLeft">
+                    <img src="imagenesEstopa/julito.png" alt="Julito con Papas Rústicas">
+                    <p>"Julito" - Ya probaste el chiquito, ahora probá el grandote. Trancate con un Julito. Sale con papas como Don Julio manda.</p>
+                </article>
+                <article class="img wow animate__animated animate__fadeInRight">
+                    <img src="imagenesEstopa/picada.png" alt="Picada">
+                    <p>Picada - Mirá esta meriendita que tenemos en Estopa para este viernes. Dejá la dieta para el año que viene.</p>
+                </article>
+                <article class="img wow animate__animated animate__fadeInLeft">
+                    <img src="imagenesEstopa/papas.png" alt="Estopapas">
+                    <p>"Estopapas" - Las cerveceras de siempre pero ahora les pusimos Estopapas porque queda pichi.</p>
+                </article>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="info">
+            <h3>Estopa - Bar</h3>
+            <p>Av. Sarmiento y Pje. Yrigoyen, San Miguel de Tucumán - Tucumán</p>
+            <p>4000000</p>
+            <p>+54 381 5000-000</p>
+        </div>
+        <div class="site-map">
+            <ul class="site-map__nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="delivery.html">Delivery</a></li>
+                <li><a href="promociones.html">Promociones</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </div>
+        <div class="social">
+            <a href="https://www.facebook.com/barestopa.tuc/" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com/barestopa.tuc/" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+    </footer>
+    <script src="https://wowjs.uk/dist/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+</body>
+</html>
