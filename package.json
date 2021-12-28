@@ -8,12 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/RodrigoJatib/Proyecto-Final.git"
+    "url": "git+https://github.com/RodrigoJatib/PROYECTO-FINAL.git"
   },
   "author": "Rodrigo Gabriel Jatib",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/RodrigoJatib/Proyecto-Final/issues"
+    "url": "https://github.com/RodrigoJatib/PROYECTO-FINAL.git/issues"
   },
-  "homepage": "https://github.com/RodrigoJatib/Proyecto-Final#readme"
+  "homepage": "https://github.com/RodrigoJatib/PROYECTO-FINAL.git#readme"
 }
